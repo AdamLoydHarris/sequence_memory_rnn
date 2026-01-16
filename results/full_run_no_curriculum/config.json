@@ -1,0 +1,26 @@
+{
+  "n_stimuli": 8,
+  "seq_lengths": [
+    2,
+    3,
+    4
+  ],
+  "fixation_duration": 5,
+  "stimulus_duration": 5,
+  "delay_duration": 10,
+  "response_duration": 5,
+  "model_type": "vanilla",
+  "hidden_dim": 128,
+  "noise_std": 0.0,
+  "n_epochs": 1000,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "use_curriculum": false,
+  "eval_every": 100,
+  "n_analysis_trials": 200,
+  "save_dir": "results/full_run_no_curriculum",
+  "seed": 42,
+  "device": "cpu",
+  "analyze_only": null
+}
